@@ -7,12 +7,12 @@
   },
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "start": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cwc-project/back.git"
-  },  
+  },
   "author": "pavel k.",
   "license": "ISC",
   "bugs": {
@@ -23,6 +23,7 @@
     "@babel/runtime": "^7.4.5",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "mongodb": "^3.2.7",
     "nodemailer": "^6.2.1"
