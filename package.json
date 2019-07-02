@@ -2,9 +2,12 @@
   "name": "cwc_backup",
   "version": "2.0.0",
   "description": "cwc back-end",
+  "engines": {
+    "node": "10.x"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js"
+    "dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
