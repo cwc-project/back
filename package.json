@@ -22,11 +22,6 @@
     "url": "https://github.com/cwc-project/back/issues"
   },
   "homepage": "https://github.com/cwc-project/back#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "@babel/runtime": "^7.4.5",
     "body-parser": "^1.19.0",
