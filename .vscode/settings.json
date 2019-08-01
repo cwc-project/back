@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": false,
+  "files.eol": "\n",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000
+}
