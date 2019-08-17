@@ -11,5 +11,6 @@ module.exports = {
     'arrow-parens': [2, 'as-needed'], // for compatablility with prettier
     'object-curly-newline': [2, { consistent: true }], // open prettier issue https://github.com/prettier/prettier/issues/2550
     'no-unused-expressions': [2, { allowShortCircuit: true }],
+    'operator-linebreak': [2, "after", { "overrides": { "&&": "after" } }]
   },
 };
