@@ -59,3 +59,5 @@ project_id
 
 проекты связаны с пользователем через user_id(email)
 todos связаны с projects через project_id
+
+-getUser добавить catch
