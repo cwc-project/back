@@ -60,4 +60,7 @@ project_id
 проекты связаны с пользователем через user_id(email)
 todos связаны с projects через project_id
 
--getUser добавить catch
+-ошибка при сравнение tokena из sessions
+ при регистрации user не записывается в sessions
+
+//getUser добавить catch
