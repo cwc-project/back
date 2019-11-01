@@ -17,5 +17,6 @@ module.exports = {
     'object-curly-newline': [2, { consistent: true }], // open prettier issue https://github.com/prettier/prettier/issues/2550
     'no-unused-expressions': [2, { allowShortCircuit: true }],
     'operator-linebreak': [2, 'after', { overrides: { '&&': 'after' } }],
+    'implicit-arrow-linebreak': [0], // неразрешимый конфликт с prettier, при переносе стрелочной ф-ции, убираются скобки
   },
 };
