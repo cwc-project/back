@@ -114,3 +114,5 @@ projects:
 индексы:
 _id - default
 userId - при получении get запроса от 
+
+- почитать про res.setHeader('Cache-Control', 'no-cache');
