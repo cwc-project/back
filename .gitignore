@@ -6,3 +6,5 @@ node_modules/
 
 # exclude folder for production
 dist/
+
+INFO
